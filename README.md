@@ -2,13 +2,13 @@
 
 <!-- 本文件由 scripts/build-readme.mjs 从 deepseek1024.com 目录 API 自动生成，请勿手工编辑。 -->
 
-面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）生态的社区插件目录，共收录 **13776** 个插件（含 PR 收录与 GitHub `dsh-plugin` topic 自动发现），目录数据更新于 2026-10-12。
+面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）生态的社区插件目录，共收录 **13777** 个插件（含 PR 收录与 GitHub `dsh-plugin` topic 自动发现），目录数据更新于 2026-10-13。
 
 > 📦 **仓库拆分公告**：自 2026-08-25 起，deepseek1024.com 网站与 `dsh1024` CLI 的源码已拆分至独立仓库 [imsai-sh/dsh-1024store](https://github.com/imsai-sh/dsh-1024store)。本仓库从此专注插件目录（awesome 清单）与收录流程；网站与 CLI 相关的 issue / PR 请移步新仓库，插件收录照旧在这里提交。
 
 **但这个项目不只是一份 awesome list。** 它还包括一个在线插件市场、一个把市场装进 `dsh` 本体的插件，以及一套免费的公开查询 API——这些应用代码开源在姊妹仓库 [dsh-1024store](https://github.com/imsai-sh/dsh-1024store)；本仓库专注目录本身：经静态校验的 PR 收录流水线与自动生成的目录 README，目录数据另有自动收集服务持续喂入。全部代码 MIT 协议，fork 之后就能部署成你自己的插件市场。
 
-[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=f1c5ee5fcd5c)](https://deepseek1024.com/)
+[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=d88b874c3580)](https://deepseek1024.com/)
 
 [在线网站](https://deepseek1024.com/) · [API 文档](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [英文目录](catalog/README.md) · [提交插件](CONTRIBUTING.md) · [网站与 CLI 源码](https://github.com/imsai-sh/dsh-1024store)
 
@@ -138,7 +138,7 @@ docs/               目录数据模型文档
 
 - [UI 增强](#ui) (2637)
 - [主题与外观](#theme) (497)
-- [会话与消息](#session) (870)
+- [会话与消息](#session) (871)
 - [记忆](#memory) (436)
 - [工具与能力](#tools) (3993)
 - [技能包](#skill) (1047)
@@ -658,7 +658,7 @@ docs/               目录数据模型文档
 <a id="session"></a>
 
 <details>
-<summary><strong>会话与消息</strong> · 显示 249 / 共 870 个</summary>
+<summary><strong>会话与消息</strong> · 显示 246 / 共 871 个</summary>
 
 - [agent-board](https://github.com/meisam2236/agent-board) — 使用持久化的工作区看板跟踪和管理 DeepSeek Harness 中的 AI 代理。
 - [agent-mode-switcher](https://github.com/my-dsh-plugin/agent-mode-switcher) — 在模型回答后切换当前会话的代理预设，以不同模式继续对话。
@@ -721,6 +721,7 @@ docs/               目录数据模型文档
 - [dsh-agent-mailbox](https://github.com/blairlaird/dsh-agent-mailbox) — 提供持久化的智能体间消息传递，支持线程、回执、搜索和在线状态，用于跨会话通信。
 - [dsh-agent-message](https://github.com/GengDaPeng/dsh-agent-message) — 实现跨会话的代理间通信，支持离线投递、回执和会话导航。
 - [dsh-agent-messaging](https://github.com/happyren/dsh-agent-messaging) — 记录跨会话验证声明并维护决策账本，避免多个 Agent 会话重复、矛盾或死锁。
+- [dsh-agent-preset-branch](https://github.com/lanhui1942/dsh-agent-preset-branch) — 从任意已完成轮次把会话分支到另一个 Agent 模式。会话标题栏的 Agent 模式标签变成菜单，每轮完成回复下方、自带分支按钮旁新增「分支模式」胶囊；两个入口都以所选模式新建会话，并把对话到所选轮次为止的事件日志前缀复制过去，源会话不被改动。尚未运行过任何轮次的会话改为就地为该模式。它走「新建 + 迁移」而不是分叉：DSH 在首轮之后锁定模式，自带分叉又必然继承父会话的模式。
 - [dsh-agent-preset-switcher](https://github.com/aefuimn/dsh-agent-preset-switcher) — 切换代理预设以改变会话行为或人设，增强多功能性。
 - [dsh-agent-quality-diagnosis](https://github.com/cat552/dsh-agent-quality-diagnosis) — 分析代理会话质量，提供工具调用证据与可操作建议。
 - [dsh-agent-replay](https://github.com/forrestsweet/dsh-agent-replay) — DeepSeek Harness 会话回放与脱敏分享插件：将真实 Agent 轨迹导出为独立交互 HTML，用于文档、演示和问题反馈。
@@ -905,11 +906,7 @@ docs/               目录数据模型文档
 - [dsh-daily-brief](https://github.com/Equinox7379/dsh-daily-brief) — 提供按会话的每日活动统计，包括轮次、消息和工具调用。
 - [dsh-dcp](https://github.com/chiro2001/dsh-dcp) — 为 DeepSeek Harness 实现动态上下文裁剪，自动管理和压缩对话上下文以适配模型限制。
 - [dsh-decision-log](https://github.com/yuyolin/dsh-decision-log) — 记录并管理 DeepSeek Harness 会话中的决策日志。
-- [dsh-deepseek-usage](https://github.com/haifeiWu/dsh-deepseek-usage) — 在 DSH 网页界面实时显示 token 用量、预估费用和账户余额。
-- [dsh-deepseek-web](https://github.com/wilianyichen/dsh-deepseek-web) — 将 DeepSeek 网页版作为可编程代理，管理会话、分享和摘要。
-- [DSH-DELETE](https://github.com/Hyna-hla/DSH-DELETE) — 删除会话，支持恢复。
-- [dsh-delete-message](https://github.com/viplocco/dsh-delete-message) — DeepSeek Harness 消息级删除插件，用于避免用户误发或错误的消息污染模型上下文。
-- *GitHub 单个文件能渲染的长度有上限，本分类还有 621 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
+- *GitHub 单个文件能渲染的长度有上限，本分类还有 625 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
 
 </details>
 
