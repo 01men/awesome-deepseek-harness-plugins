@@ -2,13 +2,13 @@
 
 <!-- 本文件由 scripts/build-readme.mjs 从 deepseek1024.com 目录 API 自动生成，请勿手工编辑。 -->
 
-面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）生态的社区插件目录，共收录 **13847** 个插件（含 PR 收录与 GitHub `dsh-plugin` topic 自动发现），目录数据更新于 2026-10-25。
+面向 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness)（`dsh`）生态的社区插件目录，共收录 **13848** 个插件（含 PR 收录与 GitHub `dsh-plugin` topic 自动发现），目录数据更新于 2026-10-25。
 
 > 📦 **仓库拆分公告**：自 2026-08-25 起，deepseek1024.com 网站与 `dsh1024` CLI 的源码已拆分至独立仓库 [imsai-sh/dsh-1024store](https://github.com/imsai-sh/dsh-1024store)。本仓库从此专注插件目录（awesome 清单）与收录流程；网站与 CLI 相关的 issue / PR 请移步新仓库，插件收录照旧在这里提交。
 
 **但这个项目不只是一份 awesome list。** 它还包括一个在线插件市场、一个把市场装进 `dsh` 本体的插件，以及一套免费的公开查询 API——这些应用代码开源在姊妹仓库 [dsh-1024store](https://github.com/imsai-sh/dsh-1024store)；本仓库专注目录本身：经静态校验的 PR 收录流水线与自动生成的目录 README，目录数据另有自动收集服务持续喂入。全部代码 MIT 协议，fork 之后就能部署成你自己的插件市场。
 
-[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=d290f2bdb573)](https://deepseek1024.com/)
+[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=fc1ac51a0bd8)](https://deepseek1024.com/)
 
 [在线网站](https://deepseek1024.com/) · [API 文档](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [英文目录](catalog/README.md) · [提交插件](CONTRIBUTING.md) · [网站与 CLI 源码](https://github.com/imsai-sh/dsh-1024store)
 
@@ -137,7 +137,7 @@ docs/               目录数据模型文档
 分组默认折叠，点开即可展开。GitHub 对单个文件的渲染长度有上限，条目较多的分类只列出其中一部分（分类标题会写明列出了多少），完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。
 
 - [UI 增强](#ui) (2653)
-- [主题与外观](#theme) (499)
+- [主题与外观](#theme) (500)
 - [会话与消息](#session) (883)
 - [记忆](#memory) (438)
 - [工具与能力](#tools) (4013)
@@ -394,7 +394,7 @@ docs/               目录数据模型文档
 <a id="theme"></a>
 
 <details>
-<summary><strong>主题与外观</strong> · 显示 252 / 共 499 个</summary>
+<summary><strong>主题与外观</strong> · 显示 251 / 共 500 个</summary>
 
 - [ambient-theme](https://github.com/intpfx/OpenFX/tree/HEAD/domains/dsh-openfx/packages/ambient-theme) — 应用环境主题，根据环境或时间改变视觉外观。
 - [anthropic-theme](https://github.com/KimFischer99/DeepSeek-Harness-Desktop/tree/HEAD/plugins/anthropic-theme) — 提供Anthropic风格视觉主题，美化桌面外壳外观。
@@ -619,6 +619,7 @@ docs/               目录数据模型文档
 - [dsh-pixel-ui](https://github.com/zhang66633/dsh-pixel-ui) — DeepSeek Harness 像素皮肤（Agent Xi 风格）：四个主题一键切换——像素·木屋 / 像素·羊皮纸 / 像素·暖阳 / 像素·终端绿，随时可切回现代默认 UI。
 - [dsh-plugin-backdrop](https://github.com/huguangyu666/dsh-plugin-backdrop) — dsh Web UI 动态背景：WebGL2 流体 + 字符鲸鱼游动(循环接缝赛博朋克故障转场) + 发光鱼群 + 点线网格
 - [dsh-plugin-background](https://github.com/haozhu11/dsh-plugin-background) — 为 DeepSeek Harness 网页界面设置自定义背景图，支持主题适配与本地保存。
+- [dsh-plugin-eva-theme](https://github.com/seaison/dsh-plugin-eva-theme) — 明日香暗色与绫波丽亮色双主题，提供驾驶员选择启动动画、角色语音、时钟与 TPS 仪表，并支持 macOS 系统音乐控制。
 - [dsh-plugin-gemini-theme](https://github.com/dingyi580/dsh-plugin-gemini-theme) — 采用Gemini风格的界面皮肤，为DeepSeek Harness网页客户端换装。
 - [dsh-plugin-gouden-leeuw-theme](https://github.com/Andy294753951/dsh-plugin-gouden-leeuw-theme) — 为 DeepSeek Harness Web 界面提供非官方 Gouden Leeuw 月光庇护所主题。
 - [dsh-plugin-image-wallpaper](https://github.com/CaoNing3212/dsh-plugin-image-wallpaper) — 自定义Deepseek Harness webUI主题
@@ -646,9 +647,7 @@ docs/               目录数据模型文档
 - [dsh-skin](https://github.com/Highjobop/dsh-gadgets/tree/HEAD/dsh-skin) — 为 DeepSeek Harness 界面提供外观与主题定制功能。
 - [dsh-skin](https://github.com/KinGao294/dsh-skin) — Codex 风格皮肤切换器 + 自定义壁纸层，可调透明度与模糊。
 - [dsh-skin-amis](https://github.com/wanzhiwei5/dsh-skin-amis) — 鸣潮爱弥斯主题皮肤: 粉白配色+赛博霓虹装饰的 DeepSeek Harness Web GUI 皮肤 / Amis-inspired pink-white skin for DSH Web UI
-- [dsh-skin-appearance](https://github.com/Vim0x3c/dsh-skin-appearance) — DeepSeek Harness 外观定制插件：八套内置主题 + 自定义壁纸（透明度/模糊），Host 设置持久化 | Appearance plugin for dsh web
-- [dsh-skin-argentina](https://github.com/henrychenhao/dsh-skin-argentina) — 梅西 阿根廷皮肤
-- *GitHub 单个文件能渲染的长度有上限，本分类还有 247 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
+- *GitHub 单个文件能渲染的长度有上限，本分类还有 249 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
 
 </details>
 
