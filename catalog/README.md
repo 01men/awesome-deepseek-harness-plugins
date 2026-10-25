@@ -8,7 +8,7 @@ The **DSH 1024Store** community catalog for [DeepSeek Harness](https://github.co
 
 **This project is more than an awesome list.** It also ships a hosted plugin marketplace, a plugin that puts that marketplace inside `dsh` itself, and a free public query API — that application code lives in the sibling repository [dsh-1024store](https://github.com/imsai-sh/dsh-1024store); this repository is the catalog itself: a statically validated PR submission pipeline and the generated directory READMEs, with an automated collection service feeding the data. Everything is MIT licensed, so you can fork it and run your own marketplace.
 
-[![The DSH 1024Store plugin marketplace homepage](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.en.png?v=0a63a7a7701c)](https://deepseek1024.com/)
+[![The DSH 1024Store plugin marketplace homepage](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.en.png?v=380494be55e0)](https://deepseek1024.com/)
 
 [Live website](https://deepseek1024.com/) · [API reference](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [中文目录](../README.md) · [Submit a plugin](../CONTRIBUTING.md) · [Site & CLI source](https://github.com/imsai-sh/dsh-1024store)
 
@@ -43,8 +43,8 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 
 - [UI Enhancements](#ui) (2653)
 - [Themes & Appearance](#theme) (500)
-- [Sessions & Messages](#session) (884)
-- [Memory](#memory) (438)
+- [Sessions & Messages](#session) (883)
+- [Memory](#memory) (439)
 - [Tools & Capabilities](#tools) (4013)
 - [Skills](#skill) (1049)
 - [Workflow & Automation](#workflow) (778)
@@ -546,7 +546,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 <a id="session"></a>
 
 <details>
-<summary><strong>Sessions &amp; Messages</strong> · showing 226 of 884</summary>
+<summary><strong>Sessions &amp; Messages</strong> · showing 227 of 883</summary>
 
 - [agent-board](https://github.com/meisam2236/agent-board) — Track and manage AI agents with a durable per-workspace board for the DeepSeek Harness web profile.
 - [agent-mode-switcher](https://github.com/my-dsh-plugin/agent-mode-switcher) — Switch the current session's agent preset (mode) after the model answers and keep chatting. DeepSeek Harness 插件：模型回答后切换模式，继续当前对话。
@@ -592,7 +592,6 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [deepseek-harness-session-log-header](https://github.com/chenshutian9610/deepseek-harness-plugin-list/tree/HEAD/packages/deepseek-harness-session-log-header) — Displays session log metadata in the header for improved session management.
 - [deepseek-harness-web-session-log-header](https://github.com/chenshutian9610/deepseek-harness-plugin-list/tree/HEAD/packages/deepseek-harness-web-session-log-header) — Shows web session log headers to help track and manage online sessions.
 - [deepseek-web-import](https://github.com/wpc0323/deepseek-web-import) — Imports conversation history from the DeepSeek web interface.
-- [deja-vu](https://github.com/vshulcz/deja-vu) — Search your past AI coding sessions — Claude Code, Codex, Cursor and 17 more. Indexes the session history they already wrote to disk, including months from before you installed it, and recalls it in any of them. No LLM, no embeddings, one local Go binary.
 - [desktop-temporary-workspace](https://github.com/ywandy/dsh-plugins/tree/HEAD/packages/desktop-temporary-workspace) — Provides a temporary workspace for desktop sessions, aiding quick task isolation.
 - [DialogueContextBridge](https://github.com/ShadowQuill/DialogueContextBridge) — Bridges conversational context across sessions by packaging consensus into portable snapshots for reuse in new dialogues.
 - [dsh_PromptRecall](https://github.com/liguanyu/dsh_PromptRecall) — Provides a Codex-style prompt history in the composer, recalled with arrow keys and persisted across sessions.
@@ -774,14 +773,16 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-conversation-link](https://github.com/duanyunlun/dsh-conversation-link) — Peer communication between conversations open in the same DeepSeek Harness process: a conversation lists the peers the workspace shows, links one under a nickname, sends it a message without waiting for its turn to end, reads its progress without waking it, and declares standing rules for its own tool calls.
 - [dsh-conversation-manager](https://github.com/lanlandeli/dsh-conversation-manager) — Manages conversation archives, restoration, batch operations, grouping, and cleanup.
 - [dsh-conversation-map](https://github.com/xyAxzy/dsh-conversation-map) — Visualizes conversation structures as an interactive map for easier navigation in DeepSeek Harness.
-- *GitHub only renders so much of one file, so 658 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- [dsh-conversation-navigator](https://github.com/wang122818/dsh-conversation-navigator) — Turn-based navigation rail for DeepSeek Harness Web conversations
+- [dsh-conversation-rewind](https://github.com/DTSFO/dsh-conversation-rewind) — Rewinds conversation history to revisit and resume from earlier points in the session.
+- *GitHub only renders so much of one file, so 656 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 
 <a id="memory"></a>
 
 <details>
-<summary><strong>Memory</strong> · showing 224 of 438</summary>
+<summary><strong>Memory</strong> · showing 223 of 439</summary>
 
 - [adapter](https://github.com/DecarbonizedGlucose/dsh-memory-note/tree/HEAD/adapter) — Stores lightweight notes locally to retain information across sessions for the agent.
 - [agent-guard](https://github.com/hr98w/dsh-memory/tree/HEAD/benchmark/locomo/agent-guard) — Implements an agent guard that ensures consistent, context-efficient long-term memory across sessions, inspired by Claude Code's auto-memory design.
@@ -805,6 +806,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [deepseek-harness-memory](https://github.com/2303572348/deepseek-harness-memory) — Provides long-term memory storage across sessions for persistent context.
 - [deepseek-harness-mimo-memory](https://github.com/Rainpomelo/deepseek-harness-mimo-memory) — Automatically memorizes workspace context for MiMoCode, injecting pre-step memory without tool calls and persisting across sessions.
 - [deepseek-knowz-plugin](https://github.com/knowz-io/deepseek-knowz-plugin) — Knowz vaults for DeepSeek Harness — hosted MCP plus slim vault skills. Publisher: Knowz AI.
+- [deja-vu](https://github.com/vshulcz/deja-vu) — Searches the session history that 42 other coding agents on the machine already wrote to disk (Claude Code, Codex, Cursor, opencode, Kimi, Cline, Zed and more), including sessions from before it was installed, and recalls it inside dsh. Six tools (deja_recall, deja_session, deja_blame, deja_fix, deja_how, deja_remember), a /deja command and optional recall before each step. Local BM25 index, no LLM, no embeddings, no network.
 - [distill](https://github.com/LoserFox/distill) — Automatic conversation distillation: background subagent reflection + skill create/update.
 - [docindex](https://github.com/JohnXu22786/docindex) — DeepSeek Harness (dsh) bundle: local semantic index over workspace documents (MD/PDF/DOCX/TXT) with FTS5 BM25 + local embedding hybrid retrieval, line-numbered citations and incremental updates.
 - [dsh](https://github.com/directwire/culmen/tree/HEAD/runtime/dsh) — Implements a persona format that persists AI memories, growth, and relationships across runtimes.
@@ -1005,9 +1007,7 @@ Groups are collapsed by default. GitHub renders only so much of a single file, s
 - [dsh-memory-pyramid](https://github.com/33moren33/dsh-memory-pyramid) — Timeline memory for DeepSeek Harness (dsh): append-only fact log + agent-maintained summary pyramid, fixed reading budget at any scale. 给 dsh 补上带时间轴的无限记忆
 - [dsh-memory-s3](https://github.com/Re-s/dsh-memory-s3) — S3-backed cross-session memory for DeepSeek Harness. Semantic recall, vector search, structured entries with attachments.
 - [dsh-memory-search-plus](https://github.com/the-thinker0/dsh-memory-search-plus) — A local-first full-text memory search plugin for DeepSeek Harness, enabling fast cross-conversation search, message-level navigation, and intelligent retrieval of your AI coding history.
-- [dsh-memory-self-evolution](https://github.com/CJL-1995/dsh-memory-self-evolution) — Enables the agent to maintain and evolve its own long-term memory across sessions, supporting adaptive learning and persistent context.
-- [dsh-memory-setup](https://github.com/863683348/dsh-memory-setup) — Solve the AI goldfish brain: auditable personal memory for DeepSeek Harness - preferences, project conventions, workflows, error lessons. 解决 AI 金鱼脑的本地可审计记忆层。
-- *GitHub only renders so much of one file, so 214 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
+- *GitHub only renders so much of one file, so 216 more plugins in this category did not fit here — search or browse the full catalog on the [live website](https://deepseek1024.com/).*
 
 </details>
 

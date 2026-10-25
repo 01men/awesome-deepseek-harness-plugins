@@ -8,7 +8,7 @@
 
 **但这个项目不只是一份 awesome list。** 它还包括一个在线插件市场、一个把市场装进 `dsh` 本体的插件，以及一套免费的公开查询 API——这些应用代码开源在姊妹仓库 [dsh-1024store](https://github.com/imsai-sh/dsh-1024store)；本仓库专注目录本身：经静态校验的 PR 收录流水线与自动生成的目录 README，目录数据另有自动收集服务持续喂入。全部代码 MIT 协议，fork 之后就能部署成你自己的插件市场。
 
-[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=0a63a7a7701c)](https://deepseek1024.com/)
+[![DSH 1024Store 插件市场首页](https://raw.githubusercontent.com/imsai-sh/awesome-deepseek-harness-plugins/assets/homepage.zh.png?v=380494be55e0)](https://deepseek1024.com/)
 
 [在线网站](https://deepseek1024.com/) · [API 文档](https://github.com/imsai-sh/dsh-1024store/blob/main/web/docs/api.md) · [英文目录](catalog/README.md) · [提交插件](CONTRIBUTING.md) · [网站与 CLI 源码](https://github.com/imsai-sh/dsh-1024store)
 
@@ -138,8 +138,8 @@ docs/               目录数据模型文档
 
 - [UI 增强](#ui) (2653)
 - [主题与外观](#theme) (500)
-- [会话与消息](#session) (884)
-- [记忆](#memory) (438)
+- [会话与消息](#session) (883)
+- [记忆](#memory) (439)
 - [工具与能力](#tools) (4013)
 - [技能包](#skill) (1049)
 - [工作流与自动化](#workflow) (778)
@@ -654,7 +654,7 @@ docs/               目录数据模型文档
 <a id="session"></a>
 
 <details>
-<summary><strong>会话与消息</strong> · 显示 245 / 共 884 个</summary>
+<summary><strong>会话与消息</strong> · 显示 245 / 共 883 个</summary>
 
 - [agent-board](https://github.com/meisam2236/agent-board) — 使用持久化的工作区看板跟踪和管理 DeepSeek Harness 中的 AI 代理。
 - [agent-mode-switcher](https://github.com/my-dsh-plugin/agent-mode-switcher) — 在模型回答后切换当前会话的代理预设，以不同模式继续对话。
@@ -700,7 +700,6 @@ docs/               目录数据模型文档
 - [deepseek-harness-session-log-header](https://github.com/chenshutian9610/deepseek-harness-plugin-list/tree/HEAD/packages/deepseek-harness-session-log-header) — 在头部展示会话日志元数据，便于管理会话。
 - [deepseek-harness-web-session-log-header](https://github.com/chenshutian9610/deepseek-harness-plugin-list/tree/HEAD/packages/deepseek-harness-web-session-log-header) — 显示 Web 会话日志头部，帮助跟踪和管理在线会话。
 - [deepseek-web-import](https://github.com/wpc0323/deepseek-web-import) — DeepSeek Web 对话导入
-- [deja-vu](https://github.com/vshulcz/deja-vu) — 索引并搜索多个 AI 编程工具的会话历史，无需向量嵌入即可回溯过往工作。
 - [desktop-temporary-workspace](https://github.com/ywandy/dsh-plugins/tree/HEAD/packages/desktop-temporary-workspace) — 为桌面会话提供临时工作区，便于快速任务隔离。
 - [DialogueContextBridge](https://github.com/ShadowQuill/DialogueContextBridge) — 对话上下文桥接 — 为大语言模型(LLM)/AI 智能体的对话做跨会话上下文桥接的 DSH 插件：把一次对话的共识打包成可移植快照，一键引入新对话（三层快照 / SQLite+FTS5 / AES-256-GCM）
 - [dsh_PromptRecall](https://github.com/liguanyu/dsh_PromptRecall) — 仿 Codex 的 DSH Web GUI 输入历史插件：会话输入框按 ↑/↓ 浏览历史 prompt，Esc清除当前对话框并进入历史，跨会话、跨重启持久保留，仅存纯文本，安全接管不误伤草稿。 A Codex-style input-history plugin for the DSH Web GUI: recall previous prompts with ↑/↓ in the composer, persisted across conversations and restarts, text-only storage with safe key routing.
@@ -901,14 +900,15 @@ docs/               目录数据模型文档
 - [dsh-custom-instructions](https://github.com/huanghai-lab/dsh-custom-instructions) — DSH Web GUI 自定义指令编辑器插件：在设置页直接编辑 ~/.dsh/AGENTS.md 全局指令（类似 ChatGPT Custom Instructions），对所有聊天生效。热插拔安装，无需改动 DSH 源码。
 - [dsh-custom-instructions](https://github.com/lyke-61/dsh-custom-instructions) — Codex-style custom instructions for DeepSeek Harness: edit ~/.dsh/AGENTS.md from a settings panel - applies to every chat and model. 类 Codex 自定义指令：在设置里编辑全局指令，所有会话所有模型生效。
 - [dsh-cwl](https://github.com/kalifun/dsh-cwl) — 以确定性方式清理会话上下文，无需大模型参与，避免摘要信息丢失。
-- *GitHub 单个文件能渲染的长度有上限，本分类还有 639 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
+- [dsh-daily-brief](https://github.com/Equinox7379/dsh-daily-brief) — 提供按会话的每日活动统计，包括轮次、消息和工具调用。
+- *GitHub 单个文件能渲染的长度有上限，本分类还有 638 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
 
 </details>
 
 <a id="memory"></a>
 
 <details>
-<summary><strong>记忆</strong> · 显示 248 / 共 438 个</summary>
+<summary><strong>记忆</strong> · 显示 246 / 共 439 个</summary>
 
 - [adapter](https://github.com/DecarbonizedGlucose/dsh-memory-note/tree/HEAD/adapter) — 在本地存储轻量笔记，帮助代理跨会话保留信息。
 - [agent-guard](https://github.com/hr98w/dsh-memory/tree/HEAD/benchmark/locomo/agent-guard) — 作为守护机制，确保跨会话长期记忆一致且高效，借鉴 Claude Code 的自动记忆设计。
@@ -932,6 +932,7 @@ docs/               目录数据模型文档
 - [deepseek-harness-memory](https://github.com/2303572348/deepseek-harness-memory) — 提供跨会话的长期记忆存储，以保持持续上下文。
 - [deepseek-harness-mimo-memory](https://github.com/Rainpomelo/deepseek-harness-mimo-memory) — DeepSeek Harness - MiMoCode 工作区自动记忆插件 (0 工具调用预注入、后台自动蒸馏与跨会话持久化) #dsh-plugin
 - [deepseek-knowz-plugin](https://github.com/knowz-io/deepseek-knowz-plugin) — 通过MCP服务与精简技能库，为DeepSeek Harness提供持久化、组织化的知识库。
+- [deja-vu](https://github.com/vshulcz/deja-vu) — 检索本机其他 42 个编程智能体（Claude Code、Codex、Cursor、opencode、Kimi、Cline、Zed 等）已经写在磁盘上的会话记录，包括安装之前的历史，并在 dsh 里召回。提供 deja_recall、deja_session、deja_blame、deja_fix、deja_how、deja_remember 六个工具和 /deja 命令，可选在每一步之前自动召回。本地 BM25 索引，不调用大模型，不用向量嵌入，不联网。
 - [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update。
 - [docindex](https://github.com/JohnXu22786/docindex) — 为工作区文档构建本地语义索引，使用混合 FTS5 和嵌入检索。
 - [dsh](https://github.com/directwire/culmen/tree/HEAD/runtime/dsh) — 实现一种人格格式，跨运行时持久化 AI 的记忆、成长和关系。
@@ -1155,10 +1156,7 @@ docs/               目录数据模型文档
 - [dsh-mnemon-strategy-scoped](https://github.com/omdsh-dev/dsh-mnemon/tree/HEAD/plugins/dsh-mnemon-strategy-scoped) — 将记忆捕获限定在特定项目或会话内，实现精准且有组织的长期回顾。
 - [dsh-mnemos](https://github.com/Rottenwooood/dsh-mnemos) — 实现跨会话的持久记忆，存储并检索上下文以增强回忆能力。
 - [dsh-mnemosyne](https://github.com/rebron1900/dsh-mnemosyne) — Mnemosyne 记忆层在 DeepSeek Harness 中的插件 — 本地优先、SQLite 支持的跨会话记忆。
-- [dsh-mnemosyne-memory](https://github.com/fjzzwxp/dsh-mnemosyne-memory) — Mnemosyne 永久记忆插件 - 为 DSH 提供长期记忆、向量搜索和 LLM 反思功能，对标 Hindsight Coding Agents
-- [dsh-mnemosyne-memory](https://github.com/Witchwarren2344/dsh-mnemosyne-memory) — 为长期记忆提供向量搜索与LLM反思，确保持续的上下文。
-- [dsh-mobile-glass](https://github.com/YiRan0/dsh-mobile-glass) — 将会话活动桥接到本地自托管记忆守护进程，实现持久上下文。
-- *GitHub 单个文件能渲染的长度有上限，本分类还有 190 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
+- *GitHub 单个文件能渲染的长度有上限，本分类还有 193 个插件没能列在这里；完整目录请在[在线网站](https://deepseek1024.com/)搜索浏览。*
 
 </details>
 
